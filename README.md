@@ -136,15 +136,23 @@ Outputs will be generated in `results/`.
 ## Author
 
 Sureen Aslawi
+
 Computer Science Department
+
 Kuwait University
+
 Kuwait
+
 [s2221189157@ku.edu.kw](mailto:s2221189157@ku.edu.kw)
 
 Fatemah Almutair
+
 Computer Science Department
+
 Kuwait University
+
 Kuwait
+
 [2212172116@ku.edu.kw](mailto:2212172116@ku.edu.kw)
 
 
