@@ -113,8 +113,8 @@ jupyter
 ## Reproduction Instructions
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/HALA-Prediction-466/HALA-prediction.git
+cd HALA-prediction
 
 jupyter notebook code/data_preprocessing.ipynb
 jupyter notebook code/normalized_dataset_export.ipynb
