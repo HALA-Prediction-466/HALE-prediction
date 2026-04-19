@@ -117,7 +117,7 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
 jupyter notebook code/data_preprocessing.ipynb
-jupyter notebook code/feature_engineering_and_normalization.ipynb
+jupyter notebook code/normalized_dataset_export.ipynb
 jupyter notebook code/model_training_and_evaluation.ipynb
 ```
 
