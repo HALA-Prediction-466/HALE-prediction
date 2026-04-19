@@ -135,20 +135,21 @@ Outputs will be generated in `results/`.
 
 ## Author
 
+Fatemah Almutair - 
+Computer Science Department - 
+Kuwait University - 
+Kuwait 
+
+[2212172116@ku.edu.kw](mailto:2212172116@ku.edu.kw)
+
 Sureen Aslawi - 
 Computer Science Department - 
 Kuwait University - 
-Kuwait - 
+Kuwait 
 
 [s2221189157@ku.edu.kw](mailto:s2221189157@ku.edu.kw)
 
 
-Fatemah Almutair - 
-Computer Science Department - 
-Kuwait University - 
-Kuwait - 
-
-[2212172116@ku.edu.kw](mailto:2212172116@ku.edu.kw)
 
 
 ## License
