@@ -1,0 +1,208 @@
+Feature,Importance
+infant mortality rate (between birth and 11 months per 1000 live births),0.7144242392752979
+HALE_Birth,0.22403764889285183
+"Probability of dying between the exact ages 30 and 70 years from cardiovascular diseases, cancer, diabetes, or chronic respiratory diseases (SDG 3.4.1)",0.007137019214430691
+Estimates of rate of homicides (per 100 000 population),0.006192606490698005
+Prevalence of raised blood pressure among adults aged 30-79 years,0.005939543648343694
+Mean Total Cholesterol (crude estimate),0.005884668255512374
+PM2.5_Exposure,0.004154176490182033
+Age-standardized suicide rates (per 100 000 population),0.0031397729604302187
+Dim1_Female,0.00298255660335518
+Dim1_Male,0.002857105583913994
+Location_Botswana,0.0025580218784506184
+Prevalence of insufficient physical activity among adults aged 18+ years (age-standardized estimate) (%),0.0024949897379308653
+Location_South Africa,0.0022419141073516
+"Prevalence of obesity among adults, BMI ³ 30 (age-standardized estimate) (%)",0.0018821545467474943
+ParentLocation_Europe,0.0016063712604439033
+Period_sin,0.001271279197484237
+"Alcohol, total per capita (15+ years) consumption (in litres of pure alcohol) (SDG Indicator 3.5.2)",0.0011588132843323782
+Undernourishment_Prevalence,0.001086470634861959
+Health_Expenditure_pct_GDP,0.0010516717973552536
+Location_Kenya,0.0010228401475137485
+Period_cos,0.0009178870849596434
+ParentLocation_Western Pacific,0.0006498624200499738
+Period,0.0006061761622311395
+Location_Syrian Arab Republic,0.0006033668356993483
+ParentLocation_South-East Asia,0.0005539292539814202
+ParentLocation_Eastern Mediterranean,0.0004920796181943052
+Location_Burundi,0.0003816596668737507
+Location_United Republic of Tanzania,0.00032724743848394075
+Location_Uzbekistan,0.0002924977103223495
+Location_Zimbabwe,0.0002742513014099461
+Location_Uganda,0.00012336288075075595
+Location_Namibia,0.00010203439880931167
+Location_El Salvador,9.969878738950098e-05
+Location_Bahamas,8.751185124412229e-05
+Location_Malawi,8.442024281522895e-05
+Location_Zambia,8.242389406866393e-05
+Location_Niger,7.696024430013722e-05
+Location_Maldives,6.628668331580004e-05
+Location_Gabon,5.838536532542575e-05
+ParentLocation_Americas,5.6241768094972885e-05
+Location_Solomon Islands,5.607195209420013e-05
+Location_Brazil,5.048312784774926e-05
+Location_Thailand,5.039039492230011e-05
+Location_Puerto Rico,4.728561433787834e-05
+Location_China,4.688847189865951e-05
+Location_Libya,3.960488608448982e-05
+Location_Suriname,3.818012810799965e-05
+Location_Guatemala,3.642567035260191e-05
+Location_Mongolia,3.621751054229154e-05
+Location_Azerbaijan,3.173383947710486e-05
+Location_Portugal,3.088389611521756e-05
+Location_United States of America,2.9590570282149963e-05
+Location_Cote d'Ivoire,2.6706537467286038e-05
+Location_Cameroon,2.591674449091683e-05
+Location_North Macedonia,2.1447864915617042e-05
+Location_Pakistan,2.0873784698596132e-05
+Location_Congo,2.0555955715063023e-05
+Location_Dominican Republic,2.0123024673458897e-05
+Location_Guinea,1.9583101026362205e-05
+Location_TÃ¼rkiye,1.788693291809624e-05
+Location_Jamaica,1.634754177575707e-05
+Location_Haiti,1.5747793569973623e-05
+Location_Montenegro,1.494086737152876e-05
+Location_Ukraine,1.3564060471211654e-05
+Location_Malta,1.3418709655498315e-05
+Location_Turkmenistan,1.3273538745798154e-05
+Location_Democratic Republic of the Congo,1.2980486083571007e-05
+Location_Eritrea,1.253744449437551e-05
+Location_Seychelles,1.0401849179682165e-05
+Location_Liberia,1.0380478415887177e-05
+Location_South Sudan,9.492977102158458e-06
+"Location_occupied Palestinian territory, including east Jerusalem",7.619013516078344e-06
+Location_Netherlands (Kingdom of the),7.386468634419771e-06
+Location_Albania,6.58672244454169e-06
+Location_Ghana,6.033350860220675e-06
+Location_Chile,5.917539854653474e-06
+Location_Central African Republic,5.891539900506407e-06
+Location_Iran (Islamic Republic of),5.867148106371427e-06
+Location_Jordan,5.7583847110550715e-06
+Location_Iraq,5.629866577259786e-06
+Location_Saint Lucia,4.813605947294999e-06
+Location_Colombia,4.809947811588735e-06
+Location_Panama,4.303885975607143e-06
+Location_Finland,4.284228966907019e-06
+Location_New Zealand,3.3045621317405025e-06
+Location_Sweden,3.290574044762566e-06
+Location_Comoros,3.2767799775639865e-06
+Location_Spain,3.167430980658515e-06
+Location_Lithuania,3.155093362791632e-06
+Location_Togo,3.076334599971784e-06
+Location_Russian Federation,2.9648314809407472e-06
+Location_Madagascar,2.8830197554102015e-06
+Location_Mozambique,2.6613980348836954e-06
+Location_Ethiopia,2.6469989592993037e-06
+Location_Cambodia,2.6410395145998444e-06
+Location_Hungary,2.3029106766389396e-06
+Location_Yemen,2.057726119400313e-06
+Location_Belarus,1.9297461790721425e-06
+Location_Chad,1.910703452853769e-06
+Location_Djibouti,1.6939813674103107e-06
+Location_Sao Tome and Principe,1.5913530917714415e-06
+Location_Morocco,1.5662023922854354e-06
+Location_Burkina Faso,1.5503099727448255e-06
+Location_Sri Lanka,1.2472327934417645e-06
+Location_Latvia,1.2181246118097898e-06
+Location_Kyrgyzstan,1.013570568079811e-06
+Location_Saudi Arabia,9.97191516847039e-07
+Location_Poland,6.647932842317943e-07
+Location_Croatia,5.991257706161776e-07
+Location_France,5.600347093114919e-07
+Location_Brunei Darussalam,5.272477346439032e-07
+Location_Denmark,3.5910998917012747e-07
+Location_Kazakhstan,1.5749897926585291e-07
+Location_Fiji,0.0
+Location_Eswatini,0.0
+Location_Czechia,0.0
+Location_Democratic People's Republic of Korea,0.0
+Location_Equatorial Guinea,0.0
+Location_Estonia,0.0
+Location_Cabo Verde,0.0
+Location_Costa Rica,0.0
+Location_Cuba,0.0
+Location_Canada,0.0
+Location_Cyprus,0.0
+Location_Bosnia and Herzegovina,0.0
+Location_Ecuador,0.0
+Location_Egypt,0.0
+Location_Australia,0.0
+Location_Austria,0.0
+Location_Argentina,0.0
+Location_Armenia,0.0
+Location_Antigua and Barbuda,0.0
+Location_Angola,0.0
+Location_Bangladesh,0.0
+Location_Bahrain,0.0
+Location_Bhutan,0.0
+Location_Benin,0.0
+Location_Belize,0.0
+Location_Belgium,0.0
+Location_Barbados,0.0
+Location_Bulgaria,0.0
+Location_Bolivia (Plurinational State of),0.0
+Location_Algeria,0.0
+Location_Oman,0.0
+Location_Norway,0.0
+Location_Nigeria,0.0
+Location_Nicaragua,0.0
+Location_Myanmar,0.0
+Location_Micronesia (Federated States of),0.0
+Location_Nepal,0.0
+Location_Mexico,0.0
+Location_Luxembourg,0.0
+Location_Lesotho,0.0
+Location_Lebanon,0.0
+Location_Malaysia,0.0
+Location_Mali,0.0
+Location_Mauritania,0.0
+Location_Mauritius,0.0
+Location_Gambia,0.0
+Location_Iceland,0.0
+Location_Honduras,0.0
+Location_Guinea-Bissau,0.0
+Location_Guyana,0.0
+Location_Georgia,0.0
+Location_Germany,0.0
+Location_Greece,0.0
+Location_Indonesia,0.0
+Location_Italy,0.0
+Location_Israel,0.0
+Location_Ireland,0.0
+Location_India,0.0
+Location_Japan,0.0
+Location_Kiribati,0.0
+Location_Kuwait,0.0
+Location_Lao People's Democratic Republic,0.0
+Location_Grenada,0.0
+Location_Singapore,0.0
+Location_Somalia,0.0
+Location_Slovenia,0.0
+Location_Saint Vincent and the Grenadines,0.0
+Location_Senegal,0.0
+Location_Serbia,0.0
+Location_Sierra Leone,0.0
+Location_Samoa,0.0
+Location_Philippines,0.0
+Location_Papua New Guinea,0.0
+Location_Qatar,0.0
+Location_Republic of Moldova,0.0
+Location_Republic of Korea,0.0
+Location_Romania,0.0
+Location_Rwanda,0.0
+Location_Paraguay,0.0
+Location_Peru,0.0
+Location_Slovakia,0.0
+Location_Tonga,0.0
+Location_Switzerland,0.0
+Location_Sudan,0.0
+Location_Tajikistan,0.0
+Location_Trinidad and Tobago,0.0
+Location_Tunisia,0.0
+Location_Timor-Leste,0.0
+Location_United Arab Emirates,0.0
+Location_United Kingdom of Great Britain and Northern Ireland,0.0
+Location_Vanuatu,0.0
+Location_Uruguay,0.0
+Location_Venezuela (Bolivarian Republic of),0.0
+Location_Viet Nam,0.0
