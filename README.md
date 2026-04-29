@@ -4,16 +4,13 @@
 
 ```
 ├── code/
-│   ├── EDA.ipynb
 │   ├── data_preprocessing.ipynb
-│   ├── feature_engineering_and_normalization.ipynb
 │   ├── model_training_and_evaluation.ipynb
 │   └── normalized_dataset_export.ipynb
 │
 ├── data/
 │   ├── merged_dataset_2000_2019.csv
 │   ├── cleaned_merged_dataset.csv
-│   ├── normalized.csv
 │   ├── X_train_normalized.csv
 │   ├── X_test_normalized.csv
 │   ├── y_train.csv
@@ -33,23 +30,20 @@
 
 | File                                          | Description                                                                           |
 | --------------------------------------------- | ------------------------------------------------------------------------------------- |
-| `EDA.ipynb`                                   | Exploratory data analysis                                                             |
 | `data_preprocessing.ipynb`                    | Missing value handling, temporal filtering (2000–2019), column pruning (>60% missing) |
-| `feature_engineering_and_normalization.ipynb` | Cyclical encoding, one-hot encoding, temporal split, scaling without leakage          |
 | `model_training_and_evaluation.ipynb`         | Model training (Linear Regression, Random Forest, Gradient Boosting) and evaluation   |
 | `normalized_dataset_export.ipynb`             | Optional export of normalized dataset                                                 |
 
 ### Data
 
-| File                           | Description                              |
-| ------------------------------ | ---------------------------------------- |
-| `merged_dataset_2000_2019.csv` | Raw merged dataset                       |
-| `cleaned_merged_dataset.csv`   | Preprocessed dataset (no missing values) |
-| `normalized.csv`               | Fully normalized dataset                 |
-| `X_train_normalized.csv`       | Training features                        |
-| `X_test_normalized.csv`        | Testing features                         |
-| `y_train.csv`                  | Training target (HALE_60)                |
-| `y_test.csv`                   | Testing target (HALE_60)                 |
+| File                           | Description |
+| ------------------------------ | ----------- |
+| `merged_dataset_2000_2019.csv` | Raw merged dataset before preprocessing |
+| `cleaned_merged_dataset.csv`   | Preprocessed dataset after cleaning, feature engineering, and encoding |
+| `X_train_normalized.csv`       | Training features (time-based split, Period ≤ 2014, with scaled numerical features) |
+| `X_test_normalized.csv`        | Testing features (time-based split, Period ≥ 2015, with scaled numerical features) |
+| `y_train.csv`                  | Training target variable (HALE_60) |
+| `y_test.csv`                   | Testing target variable (HALE_60) |
 
 ### Results
 
@@ -123,15 +117,6 @@ jupyter notebook code/model_training_and_evaluation.ipynb
 
 Outputs will be generated in `results/`.
 
-## Improvements Over Original Version
-
-| Issue            | Resolution                                   |
-| ---------------- | -------------------------------------------- |
-| Target scaling   | Target kept in original units                |
-| Random split     | Temporal split applied                       |
-| Data leakage     | Scaling applied after split (train-only fit) |
-| Limited metrics  | Added RMSE alongside MSE/MAE                 |
-| Limited features | Expanded feature set                         |
 
 ## Author
 
