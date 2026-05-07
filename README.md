@@ -16,7 +16,7 @@
 │   ├── y_train.csv
 │   └── y_test.csv
 ├── paper/
-│   ├── Fatemah__Sureen.pdf
+│   └── Fatemah__Sureen.pdf
 │
 ├── results/
 │   ├── figures/
@@ -24,7 +24,7 @@
 │   └── models/
 │
 ├── slides/
-│   ├── HALE_Presentation.pdf
+│   └── HALE_Presentation.pdf
 │
 └── README.md
 ```
