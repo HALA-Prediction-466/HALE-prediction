@@ -15,11 +15,16 @@
 │   ├── X_test_normalized.csv
 │   ├── y_train.csv
 │   └── y_test.csv
+├── paper/
+│   ├── Fatemah__Sureen.pdf
 │
 ├── results/
 │   ├── figures/
 │   ├── tables/
 │   └── models/
+│
+├── slides/
+│   ├── HALE_Presentation.pdf
 │
 └── README.md
 ```
