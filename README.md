@@ -116,7 +116,7 @@ jupyter
 ## Reproduction Instructions
 
 ```bash
-git clone https://github.com/HALA-Prediction-466/HALA-prediction.git
+git clone https://github.com/HALA-Prediction-466/HALE-prediction.git
 cd HALA-prediction
 
 jupyter notebook code/data_preprocessing.ipynb
