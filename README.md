@@ -73,7 +73,7 @@ All outputs (figures, tables, trained models) are written to `results/`. This di
    StandardScaler (rates) and MinMaxScaler (percentages), fitted on training data only.
 
 6. **Models**
-   Linear Regression, Random Forest, Gradient Boosting.
+   Linear Regression, Random Forest, Gradient Boosting, Ridge Regression, Lasso Regression, AdaBoost Regressor, Support Vector Regression
 
 7. **Evaluation Metrics**
    R², MAE (years), RMSE (years).
@@ -84,7 +84,11 @@ All outputs (figures, tables, trained models) are written to `results/`. This di
 | ----------------- | ------- | ---------------- | ----------------- |
 | Linear Regression | 0.9637  | 0.7289           | 1.2220            |
 | Random Forest     | 0.9543  | 1.0140           | 1.3716            |
-| Gradient Boosting | 0.9799  | 0.6126           | 0.9097            |
+| Gradient Boosting | 0.9867  | 0.5455           | 0.7386            |
+| Ridge Regression  | 0.9668  | 0.6845           | 1.1682            |
+| Lasso Regression  | 0.9670  | 0.6685           | 1.1664            |
+| AdaBoost          | 0.9007  | 1.5594           | 2.0215            |
+| SVR               | 0.8996  | 1.4412           | 2.0332            |
 
 Gradient Boosting achieved the best performance.
 
@@ -92,8 +96,8 @@ Gradient Boosting achieved the best performance.
 
 | Feature                                    | Importance |
 | ------------------------------------------ | ---------- |
-| Infant mortality rate                      | 0.714      |
-| HALE_Birth                                 | 0.224      |
+| Infant mortality rate                      | 0.716      |
+| HALE_Birth                                 | 0.221      |
 | Probability of dying from chronic diseases | 0.007      |
 
 No significant overfitting observed.
@@ -132,7 +136,7 @@ Kuwait
 
 [2212172116@ku.edu.kw](mailto:2212172116@ku.edu.kw)
 
-Sureen Aslawi - 
+Sureen Aslavi - 
 Computer Science Department - 
 Kuwait University - 
 Kuwait 
