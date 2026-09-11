@@ -116,6 +116,13 @@ scikit-learn
 jupyter
 ```
 
+## To Run It
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
 ## Reproduction Instructions
 
 ```bash
